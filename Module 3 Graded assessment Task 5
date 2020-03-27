@@ -5,7 +5,7 @@ def multiplication_table(number):
 	while multiplier <= 5:
 		result = number * multiplier
 		# What is the additional condition to exit out of the loop?
-		if result >=25 :
+		if result > 25 :
 			break
 		print(str(number) + "x" + str(multiplier) + "=" + str(result))
 		# Increment the variable for the loop
